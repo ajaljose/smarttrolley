@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <EditText
+        android:id="@+id/epname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        />
+    <EditText
+        android:id="@+id/epaddress"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:hint="Address"
+        android:layout_below="@id/epname"
+        />
+    <EditText
+        android:id="@+id/epemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@+id/epaddress"
+        />
+    <EditText
+        android:id="@+id/epnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:layout_below="@+id/epemail"
+        />
+    <EditText
+        android:id="@+id/epgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:layout_below="@+id/epnumber"
+        />
+
+    <EditText
+        android:id="@+id/epplaceid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place"
+        android:layout_below="@+id/epgender"
+        />
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_below="@id/epplaceid"
+        />
+
+
+
+</RelativeLayout>

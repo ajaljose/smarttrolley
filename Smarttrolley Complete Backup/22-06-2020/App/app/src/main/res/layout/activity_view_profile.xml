@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewProfileActivity">
+
+    <ImageView
+
+        android:id="@+id/profileimg"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="match_parent"
+        android:hint="Name Name"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/profileimg"/>
+    <TextView
+        android:id="@+id/paddress"
+        android:layout_width="match_parent"
+        android:hint="Address line 1"
+        android:layout_height="85dp"
+        android:layout_below="@id/pname"
+        />
+    <TextView
+        android:id="@+id/pemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paddress"
+        />
+    <TextView
+        android:id="@+id/pnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pemail"
+        />
+    <TextView
+        android:id="@+id/pgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pnumber"
+        />
+
+    <TextView
+        android:id="@+id/pplaceid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pgender"
+        />
+
+</RelativeLayout>

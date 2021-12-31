@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+
+    <ImageView
+        android:id="@+id/pdtimg"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+
+        />
+    <TextView
+        android:id="@+id/pdtname"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/pdtimg"
+        />
+    <TextView
+        android:id="@+id/bdname"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/pdtimg"
+        android:layout_below="@+id/pdtname"
+        />
+    <TextView
+        android:id="@+id/block"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/pdtimg"
+        android:layout_below="@+id/bdname"
+        />
+    <TextView
+        android:id="@+id/rack"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/pdtimg"
+        android:layout_below="@+id/block"
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@id/bdname"
+
+        />
+</RelativeLayout>
